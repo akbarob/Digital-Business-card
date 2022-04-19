@@ -1,0 +1,88 @@
+
+body{
+  font-family: 'Inter', sans-serif;
+  color: #FFFFFF;
+
+}
+
+nav{
+  background: #21222A;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px 0px;
+}
+.logo{
+  margin-right: 5px;
+}
+.logo-text{
+  font-weight: 700;
+  font-size: 22.2535px;
+  line-height: 27px;
+  letter-spacing: -0.05em;
+
+  color: #61DAFB;
+}
+.nav-title{
+  margin-left: auto;
+  color: #DEEBF8;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+}
+
+.listed-items{
+margin-top: 40px;
+max-width: 400px;
+line-height: 19px;
+color: #FFFFFF;
+}
+.listed-items>li{
+  line-height: 19px;
+  padding-block: 10px;
+}
+.listed-items>li::marker{
+  color: #61dafb;
+  font-size: 1.4rem;
+}
+.mainbody{
+  background: #282D35;
+  height: 100vh;
+  padding: 20px 45px;
+  background-image: url('./images/reactjs-icon\ 2.png');
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 50%;
+
+}
+.main-title{
+  margin-top: 30px;
+font-weight: 700;
+letter-spacing: -0.05em;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
